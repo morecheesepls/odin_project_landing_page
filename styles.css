@@ -11,8 +11,24 @@ header {
     color: #F9FAF8;
 }
 
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link, .header-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .header-text {
     border: 1px solid red;
+}
+
+.header-text > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 body {
@@ -23,12 +39,31 @@ body {
     border: 1px solid red;
 }
 
+.body-image {
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
 .body-middle {
     border: 1px solid red;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-weight: bold;
 }
 
 footer {
     border: 1px solid red;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 ul {
@@ -39,4 +74,9 @@ ul {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
 }
