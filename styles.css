@@ -36,6 +36,7 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding: 0 10%;
 }
 
 .header-logo {
@@ -144,14 +145,16 @@ header {
 /* BOTTOM SECTION */
 .body-bottom {
     width: 100%;
-    padding: 50px;
+    padding: 50px 10%;
 }
 
 .text-button-container {
     border-radius: 5px;
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 30px;
     display: flex;
+    justify-content: space-around;
 }
 
 #bottom-button {
@@ -163,7 +166,7 @@ footer {
     border: 1px solid red;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 10%;
+    padding: 20px 10%;
     text-align: center;
 }
 
